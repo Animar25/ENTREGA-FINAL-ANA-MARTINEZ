@@ -1,0 +1,18 @@
+.contenedorproductos-grid {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+      "velas difusores"
+      "jabones bathBombs";
+    gap: 30px;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 10%;
+  }
+  
+  
+  .precio {
+    text-align: center;
+  }
